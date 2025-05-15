@@ -1,0 +1,72 @@
+section,
+header {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-underline-offset: 0.3rem;
+}
+
+p {
+  line-height: 2;
+  text-indent: 2.5rem;
+  max-width: 70ch;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 0.25rem 0;
+}
+
+/* The fucking buttons */
+div:has(> .btn) {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 0;
+  border-radius: 20000000px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-1,
+.btn-3,
+.btn-4,
+.btn-5 {
+  background-color: lightblue;
+  border: 2px solid lightblue;
+}
+
+.btn-1:hover {
+  opacity: 0.75;
+}
+
+.btn-2 {
+  border: 2px solid lightblue;
+}
+
+.btn-2:hover {
+  background-color: #add8e655;
+  opacity: 0.75;
+}
+
+footer {
+  padding: 1rem 2rem;
+  border-top: 2px solid black;
+}
+
+footer p {
+  text-indent: 0;
+}
